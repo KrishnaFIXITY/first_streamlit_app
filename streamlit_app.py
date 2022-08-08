@@ -41,6 +41,8 @@ streamlit.dataframe(fruityvice_normalized)
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 streamlit.write('The user entered ', fruit_choice)
 
+select demo_db.public.grader(step, (actual = expected), actual, expected, description) as graded_results from
 
+import snowflake.connector
 
 

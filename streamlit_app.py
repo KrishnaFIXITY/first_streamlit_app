@@ -43,7 +43,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 select demo_db.public.grader(step, (actual = expected), actual, expected, description) as graded_results from
 
-import snowflake.connector
+
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
